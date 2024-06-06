@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="converter-temperatura">
+        <div class="unidade-origem">
+          <label>Temperatura:</label>
+          <div class="entrada-temperatura">
+            <input
+              type="number"
+              name=""
+              id="temperatura"
+              placeholder="Digite a temperatura"
+            />
+            <select class="unidade-origem-select">
+              <option value="°C">C</option>
+              <option value="F">F</option>
+              <option value="K">K</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="unidade-destino">
+          <label>Converter para:</label>
+          <select class="unidade-destino-select">
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+            <option value="C">Celsius</option>
+          </select>
+        </div>
+        <button onclick="converter()">Converter</button>
+      </div>
+
+      <div class="resultado"></div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>

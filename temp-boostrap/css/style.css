@@ -1,0 +1,31 @@
+body {
+    background-image: url('../images/landscapte.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-color: #ffffff80;
+    margin-bottom: 1em;
+
+}
+
+.custom-select.unidade-origem-select {
+    background-color: darkgrey;
+    font-weight: 700;
+}
+
+.resultado {
+    background-color: 18aaee7d;
+    /* width: 350px; */
+    width: 412px;
+    /* height: 400px; */
+    height: 288px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color: #fff;
+    border-radius: 4px;
+  }

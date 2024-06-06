@@ -1,0 +1,40 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Conversor de Temperatura</h1>
+        <form id="temperature-form">
+            <div class="form-group">
+                <label for="temperature">Temperatura</label>
+                <input type="number" class="form-control" id="temperature" placeholder="Digite a temperatura">
+            </div>
+            <div class="form-group">
+                <label for="scale">Escala</label>
+                <select class="form-control" id="scale">
+                    <option value="celsius">Celsius para Fahrenheit</option>
+                    <option value="fahrenheit">Fahrenheit para Celsius</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Converter</button>
+        </form>
+        <h2 class="text-center mt-4" id="result"></h2>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <!-- importanto o js -->
+   <script src="js/script.js"></script>
+</body>
+</html>
